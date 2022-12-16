@@ -2,5 +2,3 @@
 
 let course;
 course = 'code states';
-
-console.log(course);

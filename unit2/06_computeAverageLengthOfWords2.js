@@ -3,7 +3,7 @@
 /*
 function computeAverageLengthOfWords2(word1, word2) {
   
-} */
+}
 
 function computeAverageLengthOfWords2(word1, word2) {
   let output;
@@ -13,10 +13,20 @@ function computeAverageLengthOfWords2(word1, word2) {
 } 
 console.log(computeAverageLengthOfWords2(word1, word2));
 
-/* function computeAverageLengthOfWords2(word1, word2) {
+function computeAverageLengthOfWords2(word1, word2) {
   // TODO: 여기에 코드를 작성합니다.
   let output;
   output = length(word1 + word2) / 2;
   return output;
 }
 console.log(Math.floor(('code', 'states')); */
+
+function computeAverageLengthOfWords2(word1, word2) {
+  let output;
+  output = Math.floor((word1 + word2).length / 2);
+  return output;
+  
+} 
+  let word1 = 'code';
+  let word2 = 'states';
+console.log(computeAverageLengthOfWords2(word1, word2));
