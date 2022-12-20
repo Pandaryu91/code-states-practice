@@ -1,4 +1,3 @@
-//미해결
 function makePermutations(str) {
   // TODO: 여기에 코드를 작성합니다.
   // 반환 받을 문자열 타입의 변수를 선언한다.
