@@ -6,7 +6,7 @@ function replaceAll(str, from, to) {
   // 만약에 문자열 인덱스의 i 번 과 from이 일치한다면, i번 인덱스를 to로 바꿔줍니다.
   // 문자열의 i번 인덱스를 변수에 더해줍니다.
   let text = '';
-  for (i = 0; i < str.length; i++) {
+  for (let i = 0; i < str.length; i++) {
     if (str[i] === from) {
       str[i] = to;
     }
@@ -15,3 +15,17 @@ function replaceAll(str, from, to) {
   return text;
 }
 console.log(replaceAll('loop', 'o', 'e'));
+
+// function replaceAll(str, from, to) {
+//   let result = '';
+
+//   for (let i = 0; i < str.length; i++) {
+//     if (str[i] === from) {
+//       result = result + to;
+//     } else {
+//       result = result + str[i];
+//     }
+//   }
+
+//   return result;
+// }
