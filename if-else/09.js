@@ -13,4 +13,11 @@ function makeLastSeenMsg(name, period) {
                   // period를 1시간으로 나누어 몇 시간인지 알려준다 (소수점 이하 버림 Math.floor())
                       // 24시간 이상일 때
                           // period를 24시간으로 나누어 몇 일인지 알려준다 (소수점 이하 버림 Math.floor())
+  let hour =
+  let day = 
+  if(period < 60){
+    return `${name}: ${period}분 전에 접속함`
+  } else if (hour >= 1 && hour < 24) {
+    return `${name}: ${hour}시간 전에 접속함` 
+  }
 }
